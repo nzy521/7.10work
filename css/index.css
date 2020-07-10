@@ -1,0 +1,606 @@
+a{
+    text-decoration: none;
+    
+}
+
+em{
+    font-style: normal;
+}
+
+div{
+    display: block;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+    list-style: none;
+    display: list-item; 
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-size: 100%;
+}
+
+span{
+    line-height: 32px;
+    height: 32px;
+}
+
+*{
+    padding:0;
+}
+
+img{
+    vertical-align: middle;
+    border: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+
+form{
+    margin: 0;
+    padding: 0;
+    display: block
+}
+content{
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+
+.mall-search table {
+    font-size: 14px;
+    line-height: 36px;
+    height: 36px;
+    max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    left: 8px;
+    top: 0;
+    z-index: 1;
+    cursor: default;
+}
+
+button{
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    text-rendering: auto;
+}
+
+
+
+/* 头部开始 */
+
+b{
+    top: 15px;
+    position: absolute;
+    right: 6px;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid dashed dashed;
+    background-color: #bbb;
+    font-size: 0;
+    line-height: 0;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.sn-bd{
+    position: relative;
+    width: 982px;
+    margin: auto;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #999;
+}
+
+.sn-bd::after{
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.sn-container{
+    height: 32px;
+    width: 100%;
+    position: relative!important;
+    color: #999;
+}
+
+.sn-container::after{
+    content: '\20';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.nav-title{
+    float: left;
+    padding-right: 20px;
+    color: #999;
+}
+.nav-left{
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-left a{
+    float: left;
+    color: #999;
+    padding-left: 20px;
+    padding: 0px 10px;
+}
+
+.nav-left a:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: none;
+}
+
+.nav-right a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.nav-right{
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    
+}
+
+.sn-quick-menu{
+  height: 32px;
+  line-height: 32px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+
+}
+
+.sn-quick-menu li{
+    float: left;
+}
+.sn-quick-menu :hover{
+    cursor: pointer;
+    color: red;
+
+}
+
+.su-menu{
+    position: relative;
+    
+
+}
+.menu-hd{
+    padding-right: 14px;
+    height: 32px;
+    display: block;
+    z-index: 100001;
+    border: 0px solid #f2f2f2;
+    border-width: 0 1px;
+    position: relative;
+    padding: 0 10px;
+    color: #999;
+    line-height: 32px;
+    font-weight: 400;
+    
+}
+
+.sn-cart{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
+
+.sn-cart a{
+    position: static;
+}
+.sn-cart-imgs{
+    position: relative;
+    top: -1px;
+    color: #FF0036;
+    font-family: " mui-global-iconfont!important";
+    font-size: 12px;
+    font-style: normal;
+
+}
+
+.sn-cart-link{
+    color: #999;
+}
+
+.sn-separator{
+    display: inline-block;
+    width: 0;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    position: relative;
+    left: 0;
+    font-size: 0;
+    border-left: 1px solid #ccc;
+    margin: 0 2px 0 5px;
+    top: 9px;
+}
+
+.mui-global-iconfont{
+    color: #FF0036;
+    font-family: mui-global-iconfont!important;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.sn-mobile a{
+    display: inline;
+    color: #999999;
+}
+
+
+.sn-home{
+    
+    padding: 0 10px;
+}
+
+.sn-home a{
+    color: #999;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+/* 头部结束 */
+
+/* banner开始 */
+.header{
+    
+    min-width: 990px;
+    height: 130px;
+    margin-bottom: 0;
+    margin-top: 0!important;
+    
+    width: auto!important;
+    position: relative;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerLayout{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.headerCon{
+    zoom: 1;
+}
+
+.headerCon:before {
+    display: table;
+    content: "";
+    overflow: hidden;
+}
+
+.headerCon:after {
+    clear: both;
+    display: table;
+    content: "";
+    overflow: hidden;
+}
+
+.header-extra{
+    overflow: hidden;
+
+}
+
+.tmall-logo-img{
+    width: 240px;
+    height: 130px;
+}
+
+.header-banner{
+    padding: 10px 0 0 80px;
+    float: right;
+    height: 70px;
+    width: 200px;
+    padding: 2px 0 0 102.5px;
+    
+}
+
+.mallSearch-form{
+    border-width: 2px 0 2px 2px;
+    border: solid #FF0036;
+}
+
+.mall-search{
+    width: 625px;
+    padding-top: 38px;
+    float: right;
+    overflow: hidden;
+    
+}
+@media (max-width:1260px){
+    .mall-search{
+        width: 400px;
+    }
+    
+}
+
+.mallSearch-input clearfix{
+    height: 36px;
+    background-color: #fff;
+    position: relative;
+    zoom:1;
+}
+.s-combobox{
+    height: 36px;
+    float: left;
+    font-size: 12px;
+}
+
+.mallSearch-input clearfix{
+    height: 36px;
+    position: relative;
+    vertical-align: middle;
+
+}
+
+.s-combobox-input-wrap{
+    height: 36px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.s-combobox-input {
+    height: 36px;
+    width: 491px;
+    font: 16px/22px arial;
+    box-sizing: border-box;
+    background: 0 0;
+    color: #000;
+    margin: 0;
+    z-index: 2;
+    padding: 5px 3px 5px 5px;
+    outline: 0;
+    border: none;
+    position: relative;
+}
+
+#mallSearch label{
+    font-size: 14px;
+    line-height: 36px;
+    height: 36px;
+    max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    left: 8px;
+    top: 0;
+    z-index: 1;
+}
+
+.s-combobox-input{
+    width: 276px;
+    height: 36px;
+    font: 16px/22px arial;
+    box-sizing: border-box;
+    background-color: 0 0;
+    color: #000000;
+    margin: 0;
+    z-index: 2;
+    padding: 5px 3px 5px 5px;
+    outline: 0;
+    border: none;
+    position: relative;
+}
+
+@media (max-width:1260px){
+    .s-combobox-input{
+        width: 276px;
+    }
+}
+
+.mall-search button{
+    position:absolute;
+    z-index: 1;
+    width: 132px;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing:5px;
+    right: 0;
+    top: 0;
+    
+   
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FF0036;
+    overflow: hidden;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}
+/* banner结束 */
+
+
+/* 内容部分开始 */
+.main-nav{
+    white-space: nowrap;
+    position: relative;
+    font-size: 0;
+    padding-top: 0;
+    height: 35.5px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 0 0 1.5px;
+    border-color: #FF0036;
+    width: 100%;   
+}
+
+.inner-con0{
+   
+    
+
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.inner-con1{
+    width: 1230px;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+
+.inner-con3 {
+    width: 200px;
+    float: left;
+    height: 35.5px;
+    color: #fff;
+    background-color: #FF0036;
+    position: absolute;
+    z-index: 100;
+    line-height: 36px;
+}
+
+.inner-con4{
+    margin-left: 200px;
+    width: 1030px;
+}
+.clearfix{
+    clear: both;
+}
+.fp-iconfont {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 14px;
+    font-weight: 700;
+    font-family: fpIconFont!important;
+}
+
+.text{
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+
+.main-nav a {
+    height: 35px;
+    cursor: pointer;
+    float: left;
+    padding: 0 8px;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    color: #333;
+    letter-spacing: normal;
+    position: relative;
+    word-spacing: normal;
+    
+}
+
+.main-nav a img {
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+    display: block;
+    float: left;
+}
+/* 内容部分结束 */
+
+/* 尾部开始 */
+
+
+.category-con {
+    position: relative;
+    height: 500px;
+    width: 100%;
+   
+}
+
+.category-inner-con {
+    width: 1230px;
+    padding-right: 30px;
+    position: relative;
+    height: 0;
+    z-index: 100;
+    margin: 0 auto;
+}
+
+.normal-nav {
+    background-color: rgba(0,0,0,.55);
+    width: 200px;
+    height: 500px;
+    position: relative;
+    z-index: 11;
+    box-sizing: border-box;
+}
+
+
+.category-con .nav-con .normal-nav .nav-item {
+    position: relative;
+    height: 31.2px;
+    line-height: 31.2px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.icon{
+    display: inline-block;
+    opacity: .5;
+
+}
+ .nav-item i {
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 4px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 16px;
+}
+
+.nav-item a {
+    height: 31px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+/* 尾部结束 */
